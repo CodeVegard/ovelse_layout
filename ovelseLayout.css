@@ -21,6 +21,13 @@ li.navigation{
     flex-direction: row;
     justify-content: space-evenly;
     margin: 5px 15px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+li.navigation:hover{
+    cursor: pointer;
+    background-color: cadetblue;
 }
 
 h2.article_header{
