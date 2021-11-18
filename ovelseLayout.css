@@ -1,0 +1,35 @@
+h1{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 0px;
+}
+
+ul.navigation{
+    border: 2px solid black;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+li.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px 15px;
+}
+
+h2.article_header{
+    text-align: center;
+}
+
+p.article_txt{
+    margin: 0px 450px;
+}
+
+footer{
+    margin: 0px 50px;
+}
