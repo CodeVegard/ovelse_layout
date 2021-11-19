@@ -1,3 +1,8 @@
+html, body{
+    height: 100%;
+    margin: 0%;
+}
+
 h1{
     border: 2px solid black;
     text-align: center;
@@ -22,7 +27,7 @@ li.navigation{
     justify-content: space-evenly;
     margin: 5px 15px;
     border: 2px solid black;
-    padding: 2px;
+    padding: 0.8vw 3vw;
 }
 
 li.navigation:hover{
@@ -35,9 +40,23 @@ h2.article_header{
 }
 
 p.article_txt{
-    margin: 0rem 30rem;
+    margin: 0vw 15vw;
+}
+
+
+.article_box{
+    min-height: calc(100vh - 250px)
 }
 
 footer{
-    margin: 0px 50px;
+    height: 50px;
+}
+
+.customer_service{
+    display: flex;
+    flex-direction: row;
+}
+
+li.customer_service{
+    padding: 0vw 3vw;
 }
