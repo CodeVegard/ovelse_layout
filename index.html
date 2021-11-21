@@ -1,59 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ovelseLayout.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ovelseLayout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;500&family=Roboto+Slab:wght@800&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Practicing Layout</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Practicing Layout</h1>
+      <h1>Practicing Layout</h1>
     </header>
 
     <nav class="navigation">
-        <ul class="navigation">
-            <li class="navigation">Shop online</li>
-            <li class="navigation">Retailers</li>
-            <li class="navigation">Bonus</li>
-        </ul>
+      <ul class="nav_ul">
+        <li class="nav_li">Shop online</li>
+        <li class="nav_li">Retailers</li>
+        <li class="nav_li">Bonus</li>
+      </ul>
     </nav>
 
     <main>
-        <article class="article_box">
-            <h2 class="article_header">This is My Article</h2>
+      <article class="article_box">
+        <div class="hero_div">
+          <img
+            class="hero_img"
+            src="https://images.unsplash.com/photo-1613834926943-9e4ac2945744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="hero image,lego superman"
+            title="Hero Image, Lego Superman"
+          />
+        </div>
 
-            <p class="article_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Modi soluta minima molestiae repudiandae dolores,
-                sit eius voluptatem rerum, culpa id quis obcaecati aspernatur.
-                Reiciendis, magnam magni tempora obcaecati assumenda illum?</p>
+        <h2 class="article_header">This is My Article</h2>
 
-            
-            <h2 class="article_header">This is another article</h2>
+        <p class="article_txt">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi soluta
+          minima molestiae repudiandae dolores, sit eius voluptatem rerum, culpa
+          id quis obcaecati aspernatur. Reiciendis, magnam magni tempora
+          obcaecati assumenda illum?
+        </p>
 
-            <p class="article_txt"> I have added this, to demonstrate that the footer position is not determined by an absolute value, rather is is determined by the size of  article.article_box. 
-                <br> <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum dolorem natus cumque totam quam illum! Dolor, suscipit! Omnis optio blanditiis voluptatum error, possimus praesentium natus veritatis repudiandae adipisci in!</p>
+        <h2 class="article_header">This is Another Article</h2>
 
-            <h2 class="article_header">This is another article</h2>
+        <p class="article_txt">
+          I have added this, to demonstrate that the footer position is not
+          determined by an absolute value, rather is is determined by the size
+          of article.article_box.
+        </p>
 
-            <p class="article_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum dolorem natus cumque totam quam illum! Dolor, suscipit! Omnis optio blanditiis voluptatum error, possimus praesentium natus veritatis repudiandae adipisci in!</p>
-        </article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          nostrum dolorem natus cumque totam quam illum! Dolor, suscipit! Omnis
+          optio blanditiis voluptatum error, possimus praesentium natus
+          veritatis repudiandae adipisci in!
+        </p>
 
-        <footer>
-            <h4 class="customer_service">Customer Service</h4>
-            <ul class="customer_service">
-                <li class="customer_service">Troubleshooting</li>
-                <li class="customer_service">Contact us</li>
-            </ul>
-        </footer>
+        <h2 class="article_header">This is Another Article</h2>
 
+        <p class="article_txt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          nostrum dolorem natus cumque totam quam illum! Dolor, suscipit! Omnis
+          optio blanditiis voluptatum error, possimus praesentium natus
+          veritatis repudiandae adipisci in!
+        </p>
 
+        <h2 class="article_header">Here is a Picture</h2>
+
+        <p class="article_txt">This is a nice image:</p>
+        <img
+          class="article_img"
+          src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="orange flowers, blue skies"
+          title="orange flowers and blue skies"
+        />
+      </article>
+
+      <footer>
+        <h4 class="cs_header">Customer Service</h4>
+        <ul class="cs_ul">
+          <li class="cs_li">Troubleshooting</li>
+          <li class="cs_li">Contact us</li>
+        </ul>
+      </footer>
     </main>
-
-</body>
-
+  </body>
 </html>

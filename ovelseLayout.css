@@ -3,6 +3,15 @@ html, body{
     margin: 0%;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'DM Serif Display', 'Roboto Slab', serif;
+}
+
+p, li{
+    font-family: 'open sans', 'roboto', sans-serif;
+    font-weight: 500;
+}
+
 h1{
     border: 2px solid black;
     text-align: center;
@@ -12,51 +21,81 @@ h1{
     background-color: burlywood;
 }
 
-ul.navigation{
+.nav_ul{
     border: 2px solid black;
     padding: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0px;
+    list-style: none;
 }
 
-li.navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.nav_li{
     margin: 5px 15px;
     border: 2px solid black;
     padding: 0.8vw 3vw;
 }
 
-li.navigation:hover{
+.nav_li:hover{
     cursor: pointer;
     background-color: cadetblue;
+}
+
+.hero_div{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.hero_img{
+    max-width: 750px;
+    margin: auto;
 }
 
 h2.article_header{
     text-align: center;
 }
 
+/*
 p.article_txt{
-    margin: 0vw 15vw;
+    margin: 0vw 15vw;  
+    
+    !!!! THIS WAS WORKING, BUT NOT ELEGANT. REMOVED THIS AND ADDED A MAX WIDTH ON .ARTICLE_BOX !!!
 }
-
+*/
 
 .article_box{
-    min-height: calc(100vh - 250px)
+    min-height: calc(100vh - 250px);
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.article_img{
+    max-width: 750px;
+    max-height: auto;
 }
 
 footer{
     height: 50px;
+    border-top: 2px solid black;
+    padding: 0px;    
 }
 
-.customer_service{
+.cs_header, .cs_ul{
     display: flex;
     flex-direction: row;
+    list-style: none;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
-li.customer_service{
+.cs_ul{
+    padding-bottom: 25px;
+}
+
+.cs_li{
     padding: 0vw 3vw;
+    margin: 0px;
 }
