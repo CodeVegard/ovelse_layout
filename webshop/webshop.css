@@ -1,0 +1,26 @@
+.webshop_row{
+    display: flex;
+    flex-direction: row;
+    max-height: 200px; 
+    justify-content: space-evenly;
+    overflow-x: auto;
+    max-width: 1000px; 
+    scroll-snap-type: x proximity;
+    margin: auto;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
+.webshop_rowpic{
+    max-height: 150px;
+    max-width: auto;
+    margin: 0px 30px;
+}
+
+.article_header{
+    margin: 50px;
+}
+
