@@ -1,12 +1,13 @@
 .webshop_row{
     display: flex;
     flex-direction: row;
-    max-height: 200px; 
-    justify-content: space-evenly;
+    max-height: 300px; 
+    justify-content: flex-start;
     overflow-x: auto;
     max-width: 1000px; 
     scroll-snap-type: x proximity;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar{
@@ -31,14 +32,14 @@
     min-height: 800px;
     margin: 0;
     background-attachment: fixed;
-    background-position:58%;
+    background-position:60%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hero_txt{
     position: sticky;
-    top: 600px;
+    top: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +54,7 @@
 }
 
 .product_link{
-    margin: 0px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
@@ -64,4 +65,11 @@
 
 .product_link:hover{
     background-color: rgb(21, 219, 104);
+}
+
+.picwlink{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }

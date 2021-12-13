@@ -72,16 +72,12 @@ h2.article_header{
     text-align: center;
 }
 
-/*
 p.article_txt{
-    margin: 0vw 15vw;  
-    
-    !!!! THIS WAS WORKING, BUT NOT ELEGANT. REMOVED THIS AND ADDED A MAX WIDTH ON .ARTICLE_BOX !!!
+    margin: 0px 10px;
 }
-*/
 
 .article_box{
-    min-height: calc(100vh - 250px);
+    min-height: calc(100vh - 700px);
     max-width: 750px;
     margin: 0 auto;
     margin-bottom: 75px;
