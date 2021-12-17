@@ -1,0 +1,32 @@
+.product_page{
+
+}
+
+.product_presentation{
+
+}
+
+.product_name{
+
+}
+
+.product_imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+.big_img{
+    max-width: 464px;
+}
+
+.tiny_pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 464px;
+}
+
+.small_img{
+    max-height: 75px;
+    margin: 2px;
+}
