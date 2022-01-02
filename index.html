@@ -20,11 +20,11 @@
 
       <nav class="navigation">
         <ul class="nav_ul">
-          <li class="nav_li"><a href="index.html">Home</a></li>
+          <li class="nav_li"><a href="index.html">Blog</a></li>
           <li class="nav_li">
             <a href="webshop.html">Webshop</a>
           </li>
-          <li class="nav_li">Retailers</li>
+          <li class="nav_li">Extra</li>
         </ul>
       </nav>
     </header>
@@ -40,53 +40,85 @@
           />
         </div>
 
-        <h2 class="article_header">This is My Article</h2>
+        <h2 class="article_header">This is My Page</h2>
 
         <p class="article_txt">
-          I am now changing the text in this article. This is because I want to
-          make sure that my changes deploy correctly when using another device.
+          I have made this site to practice creating layouts with HTML and CSS.
+          My goal is not to create something that is nessecarily beautiful, but
+          rather to create a responsive site that functions on both mobile and
+          desktop/tablets. I also aim to create semantic and meaningful HTML.
         </p>
 
         <p class="article_txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-          sint. Inventore, animi, voluptate at facere assumenda a, nesciunt
-          eligendi dolor voluptates pariatur quidem hic. Nostrum ab harum quam
-          possimus quas.
+          Copywriting and colors are not my priority here, my only goal is to
+          get practice in creating a functioning and flexing site.
         </p>
 
-        <h2 class="article_header">This is Another Article</h2>
+        <h2 class="article_header">My Progress Thus Far</h2>
+
+        <h3 class="article_header">The Blog</h3>
+        <p class="article_txt">
+          This part of the blog text was written a little late in the process of
+          creating the site. I only realized how important using this part of
+          the site as a personal development blog after creating
+          <a href="product.html">the product site</a>.
+        </p>
 
         <p class="article_txt">
-          I have added this, to demonstrate that the footer position is not
+          The first thing I did to create my site was make the index.html site
+          (this one). I started simple with a blog style site, that had a nav
+          bar and a footer, with the main content in the middle.
+        </p>
+
+        <p class="article_txt">
+          I have added this to demonstrate that the footer position is not
           determined by an absolute value, rather is is determined by the size
-          of article.article_box.
+          of article.article_box. This is done using calc on &lt;main&gt;:
+        </p>
+        <p class="code_example">min-height: calc(100vh - 700px);</p>
+        <p class="article_txt">
+          The idea to use calc to ensure that the footer is properly placed on
+          the bottom was taken from stackowerflow, but sadly I can't find the
+          correct article any more. I'll take this as a learning experience and
+          remember to make notes consecutively.
+        </p>
+
+        <!--HERE IS WHERE I WANT A BACKGROUND IMAGE WITH THE PARALLAX EFFECT-->
+
+        <section class="nice_img" title="nice image, flowers">
+          <span></span>
+        </section>
+
+        <!--The empty <span> was added, as there needs to be some "content" to the section if it is to display anything. Even if there is a background image set in CSS. There's probably a workaround, so I should revisit this later -->
+
+        <h3 class="article_header">The Webshop</h3>
+        <p class="article_txt">
+          Going into this project, I knew that creating a "webshop" was going to
+          be both a challenge and important to my career. There's many different
+          types of sites out there, but making a webshop seems highly relevant
+          for potential future employers.
         </p>
 
         <p class="article_txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          nostrum dolorem natus cumque totam quam illum! Dolor, suscipit! Omnis
-          optio blanditiis voluptatum error, possimus praesentium natus
-          veritatis repudiandae adipisci in!
+          To begin with, I simply copied the header and footer from my existing
+          site (the blog) and inserted that into the webshop document. I also
+          had a functioning CSS stylesheet from before, so I used that as the
+          base for my webshops CSS. For the rules that were only going to be
+          applied to my webshop, I created a new stylesheet and linked it as the
+          2nd CSS stylesheet on my HTML document. This way I wouldn't run into
+          specificity issues and could run both rulesets.
         </p>
-
-        <h2 class="article_header">This is Another Article</h2>
 
         <p class="article_txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          nostrum dolorem natus cumque totam quam illum! Dolor, suscipit! Omnis
-          optio blanditiis voluptatum error, possimus praesentium natus
-          veritatis repudiandae adipisci in!
+          The thing to do after I made the basic setup and linking of the
+          stylesheets was to add the elements I wanted on my page. One of the
+          things that made (and still makes) my process hard is the fact that I
+          did not start by making a layout in Adobe XD or even sketching out my
+          structure. Knowing what elements I want to add and where they should
+          go isn't easy without a plan, so I've let my mind wander while
+          thinking of what layouts other sites go for. I'll make this another
+          learning moment.
         </p>
-
-        <h2 class="article_header">Here is a Picture</h2>
-
-        <p class="article_txt">This is a nice image:</p>
-        <img
-          class="article_img"
-          src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          alt="orange flowers, blue skies"
-          title="orange flowers and blue skies"
-        />
       </article>
 
       <footer>

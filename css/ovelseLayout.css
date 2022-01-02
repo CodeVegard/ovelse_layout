@@ -69,12 +69,32 @@ h1{
     height: auto;
 }
 
+.nice_img{
+    background-image: url(https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    min-height: 400px;
+    margin: 0;
+    background-attachment: fixed;
+    background-position:60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h2.article_header{
     text-align: center;
 }
 
+h3.article_header{
+    margin: 10px;
+}
+
 p.article_txt{
-    margin: 0px 10px;
+    margin: 10px;
+}
+
+.code_example{
+    margin: 0px 10px 10px 10px;
+    border-bottom: 2px solid black;
+    display: inline-block;    
 }
 
 .article_box{
