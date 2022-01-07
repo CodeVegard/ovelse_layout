@@ -3,21 +3,21 @@ html, body{
     margin: 0%;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'DM Serif Display', 'Roboto Slab', serif;
-}
-
 p, li, a{
     font-family: 'open sans', 'roboto', sans-serif;
     font-weight: 500;
     font-size: 1rem;
 }
 
+h1, h2, h3, h4, h5, h6, .title{
+    font-family: 'DM Serif Display', 'Roboto Slab', serif;
+}
+
 a{
     inherits: all;
 }
 
-h1{
+.title {
     border: 2px solid black;
     text-align: center;
     padding: 10px;
@@ -25,6 +25,9 @@ h1{
     margin: 0px;
     background-color: burlywood;
     font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
 }
 
 .nav_ul{
@@ -82,7 +85,7 @@ h1{
     background-size: cover;
 }
 
-h2.article_header{
+h1.article_header, h2.article_header{
     text-align: center;
 }
 
