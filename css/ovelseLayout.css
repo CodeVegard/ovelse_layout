@@ -30,10 +30,60 @@ a{
     color: black;
 }
 
+
+/* THIS IS FOR TESTING PURPOSES IN CREATING A HAMBURGER MENU */
+
+nav{
+    display: none;
+    position: fixed;
+    right: 100%;
+    margin-bottom: 0px;
+}
+
+#hamburger_menu{
+    display: none;
+}
+
+#hamburger_menu:checked ~ nav{
+    display: block;
+    position: relative;
+    right:0%;
+    width: 100%;
+    transition: 3s ease-in-out;
+}
+
+#menu_icon{
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 2.5%;
+    padding: 0rem 1.5rem;
+}
+
+/*
+#closebox{
+    display: none;
+}
+
+#closebox:checked ~ nav{
+    display: none;
+    position: fixed;
+    left: 100%;   
+}
+
+#closebtn{
+    font-size: 1.2rem;
+}
+*/
+
+/* THIS WAS FOR TESTING PURPOSES IN CREATING A HAMBURGER MENU */
+
 .nav_ul{
     border: 2px solid black;
     border-left-style: none;
     border-right-style: none;
+    border-top-style: none;
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -73,6 +123,7 @@ a{
     width: 100%;
     max-width: 700px;
     height: auto;
+    margin-top: 0px;
 }
 
 .nice_img{

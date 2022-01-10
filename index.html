@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;500&family=Roboto+Slab:wght@800&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/efafec28fb.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/ovelseLayout.css" />
     <title>Practicing Layout</title>
   </head>
@@ -17,6 +21,19 @@
   <body>
     <header>
       <a href="index.html" class="title">Practicing Layout</a>
+      <label for="hamburger_menu" class="menubox"
+        ><i class="fas fa-bars" id="menu_icon"></i
+      ></label>
+      <input type="checkbox" name="hamburger_menu" id="hamburger_menu" />
+
+      <!--
+        When creating this part of the site, I could not figure out how to keep the menu icon in the foreground while also ensuring that the nav bar actually displayed right underneath the header-banner-thing. Eventually I found a solution here:
+         https://stackoverflow.com/questions/15782078/bring-element-to-front-using-css
+
+         Initially, I tried to create another checkbox which would close the menu, but using only CSS this seemed impossible. There was already a rule applied which made the nav-bar display as "block", so another checkbox applying rules to the nav bar did not work. Even if it had worked, it probably would have meant that I would be unable to get the nav bar back again without refreshing the page and then checking the 1st box again. 
+
+         I could probably get the x-button working with JS, but that's not the corriculum and I'll stay away from it for now. Also, I eventually realized I could have just used "position" and "top" to put it inside of my h1 heading. This way it is on top (read, foreground, clickable) the entire time, it looks way nicer and I wouldn't need to bother with all this research. But I'm glad I did it, let's call  it a learning moment.
+      -->
 
       <nav class="navigation">
         <ul class="nav_ul">
@@ -25,6 +42,14 @@
             <a href="webshop.html">Webshop</a>
           </li>
           <li class="nav_li">Extra</li>
+          <!--
+          <li class="close_nav">
+            <label for="closebox"
+              ><i class="fas fa-times-circle" id="closebtn"></i
+            ></label>
+            <input type="checkbox" name="close" id="closebox" />
+          </li>
+          -->
         </ul>
       </nav>
     </header>
