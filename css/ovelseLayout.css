@@ -35,9 +35,9 @@ a{
 
 nav{
     display: none;
-    position: fixed;
-    right: 100%;
+    
     margin-bottom: 0px;
+    width: 100%;
 }
 
 #hamburger_menu{
@@ -47,9 +47,6 @@ nav{
 #hamburger_menu:checked ~ nav{
     display: block;
     position: relative;
-    right:0%;
-    width: 100%;
-    transition: 3s ease-in-out;
 }
 
 #menu_icon{
@@ -57,8 +54,24 @@ nav{
     display: block;
     position: absolute;
     z-index: 1;
-    top: 2.5%;
+    top: 20px;
+    right: 2.5%;
     padding: 0rem 1.5rem;
+}
+
+#menu_icon:hover{
+    cursor: pointer;
+    position: absolute;
+}
+
+@media (min-width: 600px) {
+    nav{
+        display: block;
+    }
+
+    #menu_icon{
+        display: none;
+    }
 }
 
 /*
