@@ -73,22 +73,6 @@ nav{
     }
 }
 
-/*
-#closebox{
-    display: none;
-}
-
-#closebox:checked ~ nav{
-    display: none;
-    position: fixed;
-    left: 100%;   
-}
-
-#closebtn{
-    font-size: 1.2rem;
-}
-*/
-
 /* THIS WAS FOR TESTING PURPOSES IN CREATING A HAMBURGER MENU */
 
 .nav_ul{
