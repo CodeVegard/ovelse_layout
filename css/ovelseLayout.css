@@ -73,6 +73,13 @@ nav{
     }
 }
 
+@media (max-width: 370px) {
+    #menu_icon{
+        top: 70px;
+        right: 5px;
+    }
+}
+
 /* THIS WAS FOR TESTING PURPOSES IN CREATING A HAMBURGER MENU */
 
 .nav_ul{
