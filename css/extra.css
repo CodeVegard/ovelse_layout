@@ -1,3 +1,9 @@
+.ballbox{
+    height: 300px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
 .ball{
     animation-name: bounce;
     animation-duration: 15s;
@@ -12,23 +18,23 @@
 
 @keyframes bounce{
     0%{
-        top: 300px;
+        top: 250px;
         left: 0%;
     }
     25%{
         left: 100%;
-        top: 0px;
+        top: 0%;
     }
     50%{
-        top: 0px;
+        top: 0%;
         left: 0%;
     }
     75%{
         left: 100%;
-        top: 300px;
+        top: 250px;
     }
     100%{
-        top: 300px;
+        top: 250px;
         left: 0%;
     }
 }
