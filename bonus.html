@@ -57,7 +57,7 @@
           What I've created above are two divs. The 1st is just a box with a 2px solid black border called "ballbox", while the other is set inside the box and called "ball". When animating it (see "extra.css"), I set originally set the ball to go 300px up, and 750px to the left, then back to the starting position. This however, did not go as planned, as the ball kept going outside of the box. It went outside the box by 50px, as the animation runs from the beginning of the div and does not take the size of its box into consideration. 
         </p>
 
-        <p class="article_text">
+        <p class="article_txt">
           To remedy this, I initially set the animation to go 700px to the left so it didn't go 50px out of the screen. But this was a disaster on smaller screen sizes, meaning I had to make the animation responsive to the size of the screen. I messed around with percentage values and vh values for a while, but realized that this did not scale properly  to the size of the screen. Eventually I realized that this can be done with "calc(100% -50px)". This way, the start of the ball div always ends up 50px before the border, regardless of screen size. I'm quite happy with this solution.
         </p>
 
